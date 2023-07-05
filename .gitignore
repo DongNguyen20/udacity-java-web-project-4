@@ -1,0 +1,14 @@
+.idea/
+/starter_code/target/
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+### IntelliJ IDEA ###
+*.iws
+*.iml
+*.ipr
