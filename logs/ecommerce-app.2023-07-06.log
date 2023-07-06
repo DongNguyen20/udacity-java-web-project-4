@@ -1,0 +1,19 @@
+2023-07-06 21:04:48,490 INFO com.example.demo.SareetaApplication [main] Starting SareetaApplication on admin-PC with PID 15196 (started by admin in C:\Users\admin\Documents\Udacity\Java-Web-Developer\Project 4\udacity-java-web-project-4)
+2023-07-06 21:04:48,534 DEBUG com.example.demo.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2023-07-06 21:04:48,535 INFO com.example.demo.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2023-07-06 21:04:59,054 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-07-06 21:04:59,055 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-07-06 21:04:59,678 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-07-06 21:05:00,824 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-07-06 21:05:01,585 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-07-06 21:05:02,522 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-07-06 21:05:03,061 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2023-07-06 21:05:03,066 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2023-07-06 21:05:04,296 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-07-06 21:05:05,769 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-07-06 21:05:11,158 DEBUG com.example.demo.security.JWTAuthenticationVerficationFilter [main] Filter 'JWTAuthenticationVerficationFilter' configured for use
+2023-07-06 21:05:14,220 INFO com.example.demo.SareetaApplication [main] Started SareetaApplication in 28.565 seconds (JVM running for 35.815)
+2023-07-06 21:06:37,724 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-10] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-06 21:06:38,254 DEBUG com.example.demo.controllers.UserController [http-nio-8080-exec-10] 201 CREATED- create User successfully!

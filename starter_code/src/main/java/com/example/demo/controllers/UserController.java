@@ -2,6 +2,7 @@ package com.example.demo.controllers;
 
 import java.util.Optional;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -21,6 +22,7 @@ import com.example.demo.model.requests.CreateUserRequest;
 
 @RestController
 @RequestMapping("/api/user")
+@Slf4j
 public class UserController {
 	
 	@Autowired
@@ -56,6 +58,7 @@ public class UserController {
 		cartRepository.save(cart);
 		user.setCart(cart);
 		userRepository.save(user);
+		log.debug(HttpStatus.CREATED + "- create User successfully!");
 		return ResponseEntity.ok(user);
 	}
 	
